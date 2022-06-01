@@ -1,0 +1,82 @@
+.best-flooring-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* content  */
+.bcg-img-1 {
+    background-image: url('../../images/flooring-projects/grid-gallery-1-370x303.jpg');
+}
+
+.bcg-img-2 {
+    background-image: url('../../images/flooring-projects/grid-gallery-2-370x303.jpg');
+}
+
+.bcg-img-3 {
+    background-image: url('../../images/flooring-projects/grid-gallery-3-370x303.jpg');
+}
+
+.bcg-img-4 {
+    background-image: url('../../images/flooring-projects/grid-gallery-4-370x303.jpg');    
+}
+
+.bcg-img-5 {
+    background-image: url('../../images/flooring-projects/grid-gallery-5-370x303.jpg');    
+}
+
+.bcg-img-6 {
+    background-image: url('../../images/flooring-projects/grid-gallery-6-370x303.jpg');    
+}
+
+/* same styles */
+
+.same-style-container {
+    width: 410px;
+    height: 347px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.darck-bcg {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.same-style-container:hover .darck-bcg {
+    display: flex;
+}
+
+.border-bcg {
+    width: 394px;
+    height: 331px;
+    border: solid 1px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+
+}
+
+.border-bcg i {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.border-bcg i:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition: .3s;
+}
+
+.border-bcg h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+

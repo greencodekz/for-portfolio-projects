@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flooria</title>
+    <link rel="stylesheet" href="styles/all.css">
+    <script src="https://kit.fontawesome.com/ab283be5b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="home">
+    <div class="home">
+        <div class="nav-bar">
+            <img class="home-logo" src="images/logo/home-logo-149x43.png" alt="">
+            <div class="menu">
+                <a href="">home</a>
+                <a href="">about us</a>
+                <a href="">projects</a>
+                <a href="">testimonias</a>
+                <a href="">team</a>
+                <a href="">news</a>
+                <a href="">contacts</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bars" onclick="openHomeModalWindow()"></i> 
+            </div>
+        </div>
+        <div class="home-slide">
+            <div class="first-home-slider">
+                <div class="first-home-slider-btn-left"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="first-home-slider-btn-right"><i class="fa-solid fa-caret-right"></i></div>
+                <div class="first-home-slider-content">
+                    <h1>high quality <br>
+                        flooring solutions</h1>
+                    <p>Flooria has been providing top-notch flooring products <br>
+                        and solutinos since our establishment. 
+                    </p>
+                    <button>shop now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-modal-window">
+        <div class="home-modal-window-container">
+            <div class="home-modal-window-header">
+                <h1>follow us</h1> <i onclick="closeHomeModalWindow()" class="fa-regular fa-rectangle-xmark"></i>
+            </div>
+            <p>Want to get the latest flooring ideas from our team? Follow us on Instagram to keep up with the newest trends and offers from Flooria.</p>
+            <div class="home-modal-window-galary">
+                <div class="home-bcg-img home-1-bcg-img">
+                    <div class="home-darc-bcg">
+                        <div class="home-border-bcg">
+                            <i class="fa-solid fa-magnifying-glass-plus" onclick="openHomeModalWindowimg()"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bcg-img home-2-bcg-img">
+                    <div class="home-darc-bcg">
+                        <div class="home-border-bcg">
+                            <i class="fa-solid fa-magnifying-glass-plus" src = "images/home-galary-img/home-gallary-slide-img/gallery-image-1-1200x800-original.jpg"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bcg-img home-3-bcg-img">
+                    <div class="home-darc-bcg">
+                        <div class="home-border-bcg">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bcg-img home-4-bcg-img">
+                    <div class="home-darc-bcg">
+                        <div class="home-border-bcg">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bcg-img home-5-bcg-img">
+                    <div class="home-darc-bcg">
+                        <div class="home-border-bcg">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bcg-img home-6-bcg-img">
+                    <div class="home-darc-bcg">
+                        <div class="home-border-bcg">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-modal-window-contacts-block">
+                <div class="home-modal-window-contacts-container">
+                     <i class="fa-solid fa-phone"></i>
+                    <a href="">+1 323-913-4688</a>
+                </div>
+                <div class="home-modal-window-contacts-container">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <a href="">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+                </div>
+                <div class="home-modal-window-contacts-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="">mail@demolink.org</a>
+                </div>              
+            </div>
+            <div class="home-modal-window-social-container">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="home-window-content">
+        <img class="home-modal-window-img" onclick="openHomeModalWindowimg(event)" src = "images/home-galary-img/home-gallary-slide-img/gallery-image-1-1200x800-original.jpg">
+        <img class="home-modal-window-img" onclick="openHomeModalWindowimg(event)" src = "images/home-galary-img/home-gallary-slide-img/grid-gallery-2-1200x800-original.jpg">
+        <img class="home-modal-window-img" onclick="openHomeModalWindowimg(event)" src = "images/home-galary-img/home-gallary-slide-img/grid-gallery-3-1200x800-original.jpg">
+        <img class="home-modal-window-img" onclick="openHomeModalWindowimg(event)" src = "images/home-galary-img/home-gallary-slide-img/gallery-image-4-530x800-original.jpg">
+        <img class="home-modal-window-img" onclick="openHomeModalWindowimg(event)" src = "images/home-galary-img/home-gallary-slide-img/grid-gallery-5-530x800-original.jpg">
+        <img class="home-modal-window-img" onclick="openHomeModalWindowimg(event)" src = "images/home-galary-img/home-gallary-slide-img/grid-gallery-6-570x800-original.jpg">
+    </div> -->
+    <div class="home-gallary-modal-window">
+        <i class="fa-solid fa-rectangle-xmark home-gallary-close-btn" onclick="closeGallaryHomeModalWindow()"></i>
+        <div class="home-modal-window-content">
+            <a class= "home-slide-prevBtn" onclick="changeImg(-1)"><i class="fa-solid fa-chevron-left"></i></a>
+            <a class = "home-slide-nextBtn" onclick="changeImg(+1)"><i class="fa-solid fa-chevron-right"></i></a>
+            <img class="home-modal-img" src="" alt="">
+        </div>
+    </div>
+</section>
+<section class="ofer-section section-padding">
+    <div class="same-head container">
+        <span class="header-line"></span>
+        <h1>what we offer</h1>
+        <span class="header-line"></span>
+    </div>
+    <div class="ofer-container container">
+        <div class="ofer-container-natural-stone ofer-container-block ofer-hover-effect">
+            <div class="ofer-bcg-img-natural-stone">
+            </div>
+            <h1>natural stone</h1>
+        </div>
+        <div class="ofer-container-block h1-ofer-same-style ofer-hover-effect">
+            <div class="ofer-bcg-img-hardwood container-ofer-same-style">
+            </div>
+            <h1>hardwood</h1>
+        </div>
+        <div class="ofer-container-block h1-ofer-same-style ofer-hover-effect">
+            <div class="ofer-bcg-img-tile container-ofer-same-style">
+            </div>
+            <h1>tile</h1>
+        </div>
+        <div class="ofer-container-block h1-ofer-same-style ofer-hover-effect">
+            <div class="ofer-bcg-img-carpet container-ofer-same-style">
+            </div>
+            <h1>carpet</h1>
+        </div>
+        <div class="ofer-container-block h1-ofer-same-style ofer-hover-effect">
+            <div class="ofer-bcg-img-laminate container-ofer-same-style">
+            </div>
+            <h1>laminate</h1>
+        </div>
+    </div>
+
+</section>
+<div class="same-head container">
+    <span class="header-line"></span>
+    <h1>best flooring project</h1>
+    <span class="header-line"></span>
+</div>
+<section class="best-flooring-project section-padding">
+    
+    <div class="best-flooring-project-container container">
+        <div class="bcg-img-1 same-style-container">
+            <div class="darck-bcg same-style-container">
+                <div class="border-bcg">
+                    <div class="content">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <h1>project #1</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bcg-img-2 same-style-container">
+            <div class="darck-bcg same-style-container">
+                <div class="border-bcg">
+                    <div class="content">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <h1>project #2</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bcg-img-3 same-style-container">
+            <div class="darck-bcg same-style-container">
+                <div class="border-bcg">
+                    <div class="content">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <h1>project #3</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bcg-img-4 same-style-container">
+            <div class="darck-bcg same-style-container">
+                <div class="border-bcg">
+                    <div class="content">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <h1>project #4</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bcg-img-5 same-style-container">
+            <div class="darck-bcg same-style-container">
+                <div class="border-bcg">
+                    <div class="content">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <h1>project #5</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bcg-img-6 same-style-container">
+            <div class="darck-bcg same-style-container">
+                <div class="border-bcg">
+                    <div class="content">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <h1>project #6</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer ">
+    <div class="footer-modal-window">
+        <div class="footer-modal-window-content">
+            <i onclick="closeFooterGallary()" class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="contacts-footer-container">
+            <img src="images/logo/footer-logo-149x43.png" alt="">
+            <p>We are an industry-leading flooring <br> products and services provider. Let’s make <br> your floor look spectacular!</p>
+            <div class="footer-contact-infomation-container">
+                <div class="pho-number">
+                    <i class="fa-solid fa-phone"></i> 
+                    <a href="">+1 323-913-4688</a>
+                </div>
+                <div class="working-time">
+                    <i class="fa-regular fa-clock"></i>
+                    <a>Mon-Sat: 07:00AM - 05:00PM</a>
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-arrow"></i> 
+                    <a href="">4730 Crystal Springs Dr, <br> Los Angeles, CA 90027</a>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter-footer-container">
+            <h1>newsletter</h1>
+                <p>Join our email list for tips and useful <br> information.</p>
+            <input type="text" placeholder="Enter Your E-mail">
+            <button>subscribe</button>
+            <div class="footer-social-media-container">
+                <p>Follow Us</p>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-instagram"></i> 
+            </div>
+        </div>
+        <div class="footer-gallary">
+            <h1>gallary</h1>
+            <div class="footer-gallary-container">
+                <div class="footer-gallary-bcg-img footer-gallary-bcg-img-1">
+                    <div class="footer-gallary-darck-bcg">
+                        <div class="footer-gallary-border-box">
+                            <i onclick="openModalImg1(event)" class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-gallary-bcg-img footer-gallary-bcg-img-2">
+                    <div class="footer-gallary-darck-bcg">
+                        <div class="footer-gallary-border-box">
+                            <i onclick="openModalImg2(event)" class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-gallary-bcg-img footer-gallary-bcg-img-3">
+                    <div class="footer-gallary-darck-bcg">
+                        <div class="footer-gallary-border-box">
+                            <i onclick="openModalImg3(event)" class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-gallary-bcg-img footer-gallary-bcg-img-4">
+                    <div class="footer-gallary-darck-bcg">
+                        <div class="footer-gallary-border-box">
+                            <i onclick="openModalImg4(event)" class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="second-footer">
+        <p>© 2022 Flooria. All rights reserved.</p>
+    </div>
+</section>
+<script src="JS/index.js"></script>
+
+<img src="" alt="">
+
+</body>
+</html>

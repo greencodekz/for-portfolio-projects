@@ -1,0 +1,31 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+   
+}
+
+.section-padding {
+    padding: 40px 0;
+   
+}
+
+.same-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 50px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    
+    
+}
+
+.header-line {
+    background-color: #d7d7d7;
+    height: 2px;
+    width: 42%;
+
+}
+
